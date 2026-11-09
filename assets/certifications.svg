@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="Certifications: Certified Kubernetes Administrator (CKA); AWS Certified Solutions Architect Associate, March 2026; Red Hat Certified Engineer, September 2025; Red Hat Certified System Administrator, August 2025; INE eJPTv2 Junior Penetration Tester, June 2025.">
+  <style>
+    .code{font:700 34px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#ffffff}
+    .nm{font:400 16.5px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#c9d6e3}
+    .is{font:600 14px 'Segoe UI',Helvetica,Arial,sans-serif}
+    .dt{font:13.5px Consolas,'SF Mono',Menlo,monospace;fill:#8fa3b8}
+    .card{animation:rise .5s ease-out both}
+    .c2{animation-delay:.12s}.c3{animation-delay:.24s}.c4{animation-delay:.36s}.c5{animation-delay:.48s}
+    @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+    @media (prefers-reduced-motion:reduce){.card{animation:none}}
+  </style>
+  <g class="card">
+    <rect x="1" y="1" width="222" height="196" rx="12" fill="#0f1c2d" stroke="#26405f" stroke-width="1.5"/>
+    <path d="M1,13 A12,12 0 0 1 13,1 H211 A12,12 0 0 1 223,13 Z" fill="#326ce5"/>
+    <text class="code" x="20" y="64">CKA</text>
+    <text class="nm" x="20" y="96">Certified Kubernetes</text>
+    <text class="nm" x="20" y="118">Administrator</text>
+    <text class="is" x="20" y="152" fill="#6f9bff">Linux Foundation · CNCF</text>
+    <text class="dt" x="20" y="178">hands-on exam</text>
+  </g>
+  <g class="card c2" transform="translate(244,0)">
+    <rect x="1" y="1" width="222" height="196" rx="12" fill="#0f1c2d" stroke="#26405f" stroke-width="1.5"/>
+    <path d="M1,13 A12,12 0 0 1 13,1 H211 A12,12 0 0 1 223,13 Z" fill="#ff9900"/>
+    <text class="code" x="20" y="64">AWS SAA</text>
+    <text class="nm" x="20" y="96">Solutions Architect –</text>
+    <text class="nm" x="20" y="118">Associate</text>
+    <text class="is" x="20" y="152" fill="#ffb347">Amazon Web Services</text>
+    <text class="dt" x="20" y="178">Mar 2026</text>
+  </g>
+  <g class="card c3" transform="translate(488,0)">
+    <rect x="1" y="1" width="222" height="196" rx="12" fill="#0f1c2d" stroke="#26405f" stroke-width="1.5"/>
+    <path d="M1,13 A12,12 0 0 1 13,1 H211 A12,12 0 0 1 223,13 Z" fill="#ee0000"/>
+    <text class="code" x="20" y="64">RHCE</text>
+    <text class="nm" x="20" y="96">Red Hat Certified</text>
+    <text class="nm" x="20" y="118">Engineer (Ansible)</text>
+    <text class="is" x="20" y="152" fill="#ff5c5c">Red Hat</text>
+    <text class="dt" x="20" y="178">Sep 2025</text>
+  </g>
+  <g class="card c4" transform="translate(732,0)">
+    <rect x="1" y="1" width="222" height="196" rx="12" fill="#0f1c2d" stroke="#26405f" stroke-width="1.5"/>
+    <path d="M1,13 A12,12 0 0 1 13,1 H211 A12,12 0 0 1 223,13 Z" fill="#ee0000"/>
+    <text class="code" x="20" y="64">RHCSA</text>
+    <text class="nm" x="20" y="96">Red Hat Certified</text>
+    <text class="nm" x="20" y="118">System Administrator</text>
+    <text class="is" x="20" y="152" fill="#ff5c5c">Red Hat</text>
+    <text class="dt" x="20" y="178">Aug 2025</text>
+  </g>
+  <g class="card c5" transform="translate(976,0)">
+    <rect x="1" y="1" width="222" height="196" rx="12" fill="#0f1c2d" stroke="#26405f" stroke-width="1.5"/>
+    <path d="M1,13 A12,12 0 0 1 13,1 H211 A12,12 0 0 1 223,13 Z" fill="#9b6bff"/>
+    <text class="code" x="20" y="64">eJPTv2</text>
+    <text class="nm" x="20" y="96">Junior Penetration</text>
+    <text class="nm" x="20" y="118">Tester</text>
+    <text class="is" x="20" y="152" fill="#b99bff">INE Security</text>
+    <text class="dt" x="20" y="178">Jun 2025</text>
+  </g>
+</svg>

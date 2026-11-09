@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 692" width="900" height="692" role="img" aria-label="BlindSpot results: kube-prometheus-stack default alerts caught 3 of 3 common app failures but 1 of 10 harder infrastructure failures, across 70 trials on fresh kind clusters.">
+  <style>
+    .h{font:700 34px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#ffffff}
+    .sub{font:400 16px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#9fb3c8}
+    .big{font:700 46px 'Segoe UI',Helvetica,Arial,sans-serif}
+    .lbl{font:400 14px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#c9d6e3}
+    .cap{font:600 12px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#8fa3b8;letter-spacing:1.5px}
+    .row{font:400 15px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#e6edf5}
+    .chip{font:700 11px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#0b1626;letter-spacing:.8px}
+    .ft{font:12px Consolas,'SF Mono',Menlo,monospace;fill:#8fa3b8}
+    .tag{font:12px Consolas,'SF Mono',Menlo,monospace;fill:#3fd0c9}
+  </style>
+  <rect width="900" height="692" rx="16" fill="#0b1626"/>
+  <rect x="0" y="686" width="900" height="6" fill="#e5484d"/>
+  <text class="h" x="30" y="58">BlindSpot</text>
+  <text class="sub" x="30" y="88">Do the default Kubernetes alerts tell anyone when things break?</text>
+  <text class="tag" x="870" y="56" text-anchor="end">kube-prometheus-stack 92.22.0</text>
+  <text class="tag" x="870" y="76" text-anchor="end">default rules</text>
+
+  <g>
+    <rect x="30" y="112" width="270" height="118" rx="12" fill="#10233a" stroke="#26405f"/>
+    <text class="big" x="50" y="170" fill="#3fb950">3 / 3</text>
+    <text class="lbl" x="50" y="204">common app failures caught</text>
+    <rect x="315" y="112" width="270" height="118" rx="12" fill="#10233a" stroke="#26405f"/>
+    <text class="big" x="335" y="170" fill="#ff6b6b">1 / 10</text>
+    <text class="lbl" x="335" y="204">harder infrastructure failures caught</text>
+    <rect x="600" y="112" width="270" height="118" rx="12" fill="#10233a" stroke="#26405f"/>
+    <text class="big" x="620" y="170" fill="#3fd0c9">70</text>
+    <text class="lbl" x="620" y="204">trials, raw results in Git</text>
+  </g>
+
+  <text class="cap" x="30" y="268">THE 10 HARDER FAILURES · SAME OUTCOME IN 5 OF 5 TRIALS</text>
+  <g>
+    <rect x="30" y="282" width="840" height="34" rx="6" fill="#0f1c2d"/>
+    <text class="row" x="46" y="304">App keeps crashing</text>
+    <rect x="704" y="289" width="150" height="20" rx="4" fill="#3fb950"/><text class="chip" x="779" y="303" text-anchor="middle">CAUGHT · 16 MIN</text>
+
+    <rect x="30" y="320" width="840" height="34" rx="6" fill="#0d1827"/>
+    <text class="row" x="46" y="342">CPU throttled</text>
+    <rect x="704" y="327" width="150" height="20" rx="4" fill="#f2c94c"/><text class="chip" x="779" y="341" text-anchor="middle">FIRED · MUTED</text>
+
+    <rect x="30" y="358" width="840" height="34" rx="6" fill="#0f1c2d"/>
+    <text class="row" x="46" y="380">Upstream DNS returns NXDOMAIN</text>
+    <rect x="704" y="365" width="150" height="20" rx="4" fill="#e5484d"/><text class="chip" x="779" y="379" text-anchor="middle" fill="#ffffff">SILENT</text>
+
+    <rect x="30" y="396" width="840" height="34" rx="6" fill="#0d1827"/>
+    <text class="row" x="46" y="418">DNS very slow</text>
+    <rect x="704" y="403" width="150" height="20" rx="4" fill="#e5484d"/><text class="chip" x="779" y="417" text-anchor="middle" fill="#ffffff">SILENT</text>
+
+    <rect x="30" y="434" width="840" height="34" rx="6" fill="#0f1c2d"/>
+    <text class="row" x="46" y="456">40% packet loss into a backend</text>
+    <rect x="704" y="441" width="150" height="20" rx="4" fill="#f08c2e"/><text class="chip" x="779" y="455" text-anchor="middle">WAITED · NEVER FIRED</text>
+
+    <rect x="30" y="472" width="840" height="34" rx="6" fill="#0d1827"/>
+    <text class="row" x="46" y="494">MTU black hole</text>
+    <rect x="704" y="479" width="150" height="20" rx="4" fill="#e5484d"/><text class="chip" x="779" y="493" text-anchor="middle" fill="#ffffff">SILENT</text>
+
+    <rect x="30" y="510" width="840" height="34" rx="6" fill="#0f1c2d"/>
+    <text class="row" x="46" y="532">NetworkPolicy blocks the app</text>
+    <rect x="704" y="517" width="150" height="20" rx="4" fill="#e5484d"/><text class="chip" x="779" y="531" text-anchor="middle" fill="#ffffff">SILENT</text>
+
+    <rect x="30" y="548" width="840" height="34" rx="6" fill="#0d1827"/>
+    <text class="row" x="46" y="570">Admission webhook down</text>
+    <rect x="704" y="555" width="150" height="20" rx="4" fill="#f08c2e"/><text class="chip" x="779" y="569" text-anchor="middle">WAITED · NEVER FIRED</text>
+
+    <rect x="30" y="586" width="840" height="34" rx="6" fill="#0f1c2d"/>
+    <text class="row" x="46" y="608">Alertmanager down, then the app crashes</text>
+    <rect x="704" y="593" width="150" height="20" rx="4" fill="#e5484d"/><text class="chip" x="779" y="607" text-anchor="middle" fill="#ffffff">NOT DELIVERED</text>
+
+    <rect x="30" y="624" width="840" height="34" rx="6" fill="#0d1827"/>
+    <text class="row" x="46" y="646">Prometheus down</text>
+    <rect x="704" y="631" width="150" height="20" rx="4" fill="#e5484d"/><text class="chip" x="779" y="645" text-anchor="middle" fill="#ffffff">SILENT</text>
+  </g>
+  <text class="ft" x="30" y="677">harm confirmed from outside the cluster · 20 of 20 control trials passed · raw results in Git</text>
+</svg>
