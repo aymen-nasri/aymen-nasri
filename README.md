@@ -5,15 +5,15 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/aymen-nasri0"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile"/></a>
   <a href="mailto:aymen.nasri.1336@gmail.com"><img src="https://img.shields.io/badge/Email-0b1626?style=for-the-badge&logo=gmail&logoColor=3fd0c9" alt="Email me"/></a>
-  <img src="https://img.shields.io/badge/Monastir%2C%20Tunisia-0b1626?style=for-the-badge&logo=googlemaps&logoColor=3fd0c9" alt="Based in Monastir, Tunisia"/>
-  <img src="https://img.shields.io/badge/Open%20to-PFE%202027%20%C2%B7%20junior%20roles-ffd23f?style=for-the-badge&labelColor=0b1626" alt="Open to a 2027 end-of-studies internship and junior roles"/>
+  <img src="https://img.shields.io/badge/Tunis%2C%20Tunisia-0b1626?style=for-the-badge&logo=googlemaps&logoColor=3fd0c9" alt="Based in Tunis, Tunisia"/>
+  <img src="https://img.shields.io/badge/Open%20to-PFE%202027%20%C2%B7%20junior%20roles%20%C2%B7%20Germany-ffd23f?style=for-the-badge&labelColor=0b1626" alt="Open to a 2027 end-of-studies internship and junior roles, in Germany or remote"/>
 </p>
 
 I'm a cybersecurity engineering student at **TEK-UP** in Tunis, graduating in 2027, focused on **cloud security, SOC automation and DevSecOps**. I like the part of security that is easy to get wrong when you automate it: turning scattered alerts into one clear story, and making sure no containment action can fire without a policy check and a human decision.
 
 Everything I publish runs its own attack or failure in CI, and says plainly what works today and what doesn't yet.
 
-**Open to** a 2027 end-of-studies (PFE) internship and junior roles in cloud security, SOC or DevSecOps, in Europe, remotely or in Tunisia.
+**Open to** a 2027 end-of-studies (PFE) internship and junior roles in cloud security, SOC or DevSecOps: on site in Germany from April 2027, elsewhere in Europe, or remote.
 
 ## What I bring
 
